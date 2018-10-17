@@ -4841,9 +4841,9 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <attribute name="NAME" x="3.937" y="164.4142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="3.937" y="159.258" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="P" x="5.08" y="157.48">
-<attribute name="NAME" x="3.937" y="159.3342" size="1.778" layer="95"/>
-<attribute name="VALUE" x="3.937" y="154.178" size="1.778" layer="96"/>
+<instance part="GND4" gate="P" x="2.54" y="157.48">
+<attribute name="NAME" x="1.397" y="159.3342" size="1.778" layer="95"/>
+<attribute name="VALUE" x="1.397" y="154.178" size="1.778" layer="96"/>
 </instance>
 <instance part="GND" gate="P" x="5.08" y="175.26">
 <attribute name="NAME" x="3.937" y="177.1142" size="1.778" layer="95"/>
@@ -4999,6 +4999,9 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <pinref part="X1" gate="-1" pin="S"/>
 <wire x1="86.36" y1="172.72" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
 <junction x="91.44" y="172.72"/>
+<junction x="7.62" y="162.56"/>
+<junction x="7.62" y="170.18"/>
+<junction x="7.62" y="175.26"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -5007,6 +5010,13 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="45.72" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-2" pin="S"/>
 <junction x="91.44" y="170.18"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="GND4" gate="P" pin="P"/>
+<junction x="5.08" y="157.48"/>
+<wire x1="7.62" y1="157.48" x2="5.08" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
